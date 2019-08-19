@@ -1,0 +1,85 @@
+.Victoria{
+  animation-duration:4s;
+  animation-name: victoria;
+}
+
+@keyframes victoria {
+  0% {
+    text-align: center;
+    opacity: 0;
+    top: 220px;
+    position: absolute;
+  }
+
+  100% {
+    text-align: center;
+    opacity: 0.8;
+    position: absolute;
+    letter-spacing: 40px;
+    font-size: 194px;
+    top: 10px;
+  }
+}
+
+.photo{
+  animation-duration:50s;
+  animation-name: photoanim;
+  animation-iteration-count:infinite;
+}
+@keyframes photoanim {
+  0%{
+    background-image: url(../img/PhotoTwo.jpg);
+    opacity: 1;
+      background-size: 1440px 700px;
+  }
+  10%{
+    background-image: url(../img/PhotoThree.jpg);
+    opacity: 1;
+    background-size: 1440px 700px;
+    }
+    20%{
+      background-image: url(../img/PhotoFourth.jpg);
+      opacity: 1;
+        background-size: 1440px 700px;
+    }
+  30% {
+    background-image: url(../img/PhotoFive.jpg);
+    opacity: 1;
+      background-size: 1440px 700px;
+  }
+  40% {
+   background-image: url(../img/PhotoTen.jpg);
+   opacity: 1;
+   background-size: 1440px 700px;
+ }
+  50% {
+   background-image: url(../img/PhotoSeven.jpg);
+   opacity: 1;
+   background-size: 1440px 700px;
+ }
+  60% {
+   background-image: url(../img/PhotoEight.jpg);
+   opacity: 1;
+   background-size: 1440px 700px;
+ }
+  70% {
+   background-image: url(../img/PhotoNine.jpg);
+   opacity: 1;
+  background-size: 1440px 700px;
+ }
+ 80%{
+   background-image: url(../img/PhotoTen.jpg);
+   opacity: 1;
+  background-size: 1440px 700px;
+ }
+ 90%{
+   background-image: url(../img/PhotoEll.jpg);
+   opacity: 1;
+  background-size: 1440px 700px;
+ }
+ 100%{
+   background-image: url(../img/PhotoTwo.jpg);
+   opacity: 1;
+  background-size: 1440px 700px;
+ }
+}

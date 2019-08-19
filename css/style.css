@@ -1,0 +1,81 @@
+html{}
+body{
+
+  background-color: #F0FFF0;
+}
+.FotoOne{
+  display: block;
+  margin: auto;
+  width: 80em;
+  height: 40em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.Victoria{
+height:50px;
+position: absolute;
+left: 22%;
+top: 10px;
+font-family: "Edwardian Script ITC";
+color: #B22222;
+opacity: 0.8;
+letter-spacing: 40px;
+text-align: center;
+font-size: 194px;
+}
+.photo{
+  border-radius: 10px;
+  opacity: 0;
+  margin: auto;
+  width: 1440px;
+  margin-top: 100px;
+  height: 700px;
+  margin-bottom: 50px;
+    background-size: 1440px 700px;
+}
+.info{
+  text-align:justify;
+  padding: 0px 100px 0px 100px;
+  line-height: 45px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+hr{
+  width: 150px;
+  margin: auto;
+}
+.z{
+  text-align: center;
+font-size: 1.2em;
+}
+form{
+  font-size: 1.2em;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.zay{
+  color: #B22222;
+}
+.som{
+padding-left: 20px;
+}
+button{
+  width: 150px;
+  height: 55px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+footer{
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+footer p{
+  text-align: center;
+  color: #fff;
+  padding: 100px 0px 0px 0px;
+}
